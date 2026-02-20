@@ -14,6 +14,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
+setuptools = "<81"
 python = "<3.12,>=3.8.0"
 singer-sdk = { version=">=0.28,<0.37" }
 fs-s3fs = { version = "^1.1.1", optional = true }
